@@ -99,8 +99,9 @@ Accept wildcard characters: False
 ```
 
 ### -CacheFileLocalMaxDiskUsage
-Maximum amount of disk space (percentage) that can be used for the cache files.
-The default value is 80.
+Maximum amount of total disk space (percentage) that can be used for the cache files. 
+The default value is 80. 
+WIth the default value set, the total disk space used can not exceed 20% of the total disk space.
 
 ```yaml
 Type: UInt32
